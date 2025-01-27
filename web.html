@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Umar.id</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: "poppins", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="bg-gray-950 text-white">
+    <!-- navbar -->
+    <div
+      class="bg-transparent backdrop-blur-md py-2 sticky top-4 z-10 mx-2 border-2 border-blue-600 rounded-md"
+    >
+      <div class="container mx-auto">
+        <header class="flex justify-center md:justify-between items-center">
+          <!-- logo -->
+          <div class="font-bold text-xl hidden md:block">Umar.id</div>
+          <!-- nav -->
+          <nav class="flex space-x-3 items-center">
+            <a href="#home">Home</a>
+            <a href="#animations">Animations</a>
+            <a
+              href="#contact"
+              class="py-2 px-4 bg-blue-600/20 rounded-md bg-gradient-to-br from-purple-500 to-teal-700 flex items-center space-x-2"
+              >Contact Us</a
+            >
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="home"></div>
+    <!-- hero -->
+    <div
+      class="container mx-auto py-16 border-r-2 border-blue-600 py-40 mt-5 md:mt-20"
+      id="home"
+    >
+      <div class="w-full md:w-2/3 px-3">
+        <h1 class="font-bold text-4xl md:text-6xl mb-4" data-aos="zoom-in-up">
+          Welcome to Animation Production By
+          <span class="text-blue-600">Umar.id</span>
+        </h1>
+        <p
+          class="text-base md:text-lg text-sm text-gray-500"
+          data-aos="zoom-in-up"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+          soluta recusandae explicabo saepe sint, cumque aliquam exercitationem
+          veniam nemo eaque magnam perspiciatis ullam distinctio illum ea, quia
+          atque quo quisquam!
+        </p>
+      </div>
+    </div>
+
+    <div id="animations"></div>
+    <!-- animations showcase -->
+    <div
+      class="container mx-auto py-16 min-h-screen py-20 mb-20"
+      id="animations"
+    >
+      <div class="px-5">
+        <h2 class="text-4xl font-bold mb-8">Our Animations</h2>
+        <p class="md:w-1/2 text-base mb-10 text-sm text-gray-500">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, odio.
+          Culpa repellendus nobis consequatur natus. Incidunt sed alias
+          dignissimos quae eligendi voluptatum sunt voluptatem neque architecto
+          aut! Ipsum, possimus ex!
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- card video -->
+        <div
+          class="p-4 rounded-md"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+        >
+          <video controls class="w-full">
+            <source src="animation1.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <!-- card video -->
+        <div
+          class="p-4 rounded-md"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+        >
+          <video controls class="w-full">
+            <source src="animation1.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <!-- card video -->
+        <div
+          class="p-4 rounded-md"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+        >
+          <video controls class="w-full">
+            <source src="animation1.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <!-- card video -->
+        <div
+          class="p-4 rounded-md"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+        >
+          <video controls class="w-full">
+            <source src="animation1.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <!-- card video -->
+        <div
+          class="p-4 rounded-md"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+        >
+          <video controls class="w-full">
+            <source src="animation1.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <!-- card video -->
+        <div
+          class="p-4 rounded-md"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+        >
+          <video controls class="w-full">
+            <source src="animation1.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="bg-gradient-to-t py-20 from-gray-950 to-gray-900 py-4">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2025 Umar.id. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- AOS script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
